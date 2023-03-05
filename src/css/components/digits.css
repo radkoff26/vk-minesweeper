@@ -1,0 +1,11 @@
+.digits {
+    display: flex;
+}
+
+.digits__digit {
+    height: 23px;
+    width: 13px;
+    background-image: url("../../assets/sprites.png");
+    background-repeat: no-repeat;
+    background-position: -28px 0;
+}

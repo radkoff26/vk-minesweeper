@@ -1,0 +1,24 @@
+.status-button {
+    background-image: url("../../assets/sprites.png");
+    background-repeat: no-repeat;
+}
+
+.status-button.default {
+    background-position: 0 -24px;
+}
+
+.status-button.default:active {
+    background-position: -27px -24px;
+}
+
+.status-button.worried {
+    background-position: -54px -24px;
+}
+
+.status-button.cool {
+    background-position: -81px -24px;
+}
+
+.status-button.defeated {
+    background-position: -108px -24px;
+}

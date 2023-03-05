@@ -1,0 +1,15 @@
+.field {
+    display: flex;
+    width: calc(16px * 16);
+    flex-flow: row wrap;
+    flex-basis: 16px;
+    box-sizing: content-box;
+}
+
+.field .cell {
+    height: 16px;
+    width: 16px;
+    background-image: url("../../assets/sprites.png");
+    background-repeat: no-repeat;
+    background-position: 0 -51px;
+}
